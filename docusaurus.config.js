@@ -24,7 +24,7 @@ module.exports = {
     "footer": {
       "style": "dark",
       "links": [],
-      "copyright":  "© 2021 KYOCERA Document Solutions, Inc."
+      "copyright":  "© 2022 KYOCERA Document Solutions, Inc."
     }
   },
   "presets": [
