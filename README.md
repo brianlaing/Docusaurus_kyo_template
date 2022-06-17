@@ -1,2 +1,2 @@
-# Docusaurus_ta_template
-The TA branded Docusaurus template based on Jorsek template
+# Docusaurus_kyo_template
+The Kyocera branded Docusaurus template based on Jorsek template
