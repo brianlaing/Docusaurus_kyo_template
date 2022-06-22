@@ -1,62 +1,68 @@
 module.exports = {
-  "title": "Kyocera Cloud Print and Scan",
-  "tagline": "The tagline of my site",
-  "url": "https://your-docusaurus-test-site.com",
-  "baseUrl": "/",
-  "onBrokenLinks": "throw",
-  "favicon": "img/favicon.ico",
-  "organizationName": "your-org",
-  "projectName": "docusaurus",
-  "themeConfig": {
-    "navbar": {
-      "title": "Kyocera Cloud Print and Scan",
-      "logo": {
-        "alt": "Kyocera Cloud Print and Scan",
-        "src": "img/logo.svg"
+  title: 'My Site',
+  tagline: 'The tagline of my site',
+  url: 'https://your-docusaurus-test-site.com',
+  baseUrl: '/',
+  onBrokenLinks: 'throw',
+  favicon: 'img/favicon.ico',
+  organizationName: 'your-org', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
+  themeConfig: {
+//    algolia: {
+//      apiKey: 'YOUR_API_KEY',
+//      indexName: 'YOUR_INDEX_NAME',
+//    },
+    navbar: {
+      title: 'My Site',
+      logo: {
+        alt: 'My Site Logo',
+        src: 'img/logo.svg',
       },
-      "items": [
-        {
-          "type": "localeDropdown",
-          "position": "left"
-        }
-      ]
+      items: [],
     },
-    "footer": {
-      "style": "dark",
-      "links": [],
-      "copyright":  "© 2022 KYOCERA Document Solutions, Inc."
-    }
+    footer: {
+      style: 'dark',
+      links: [],
+      copyright: `© ${new Date().getFullYear()} KYOCERA Document Solutions, Inc.`,
+    },
   },
-  "presets": [
+  presets: [
     [
-      "@docusaurus/preset-classic",
+      '@docusaurus/preset-classic',
       {
-        "docs": {
-          "routeBasePath": "/",
-          "sidebarPath": require.resolve('./sidebars.js')
+        docs: {
+          routeBasePath: '/',
+          sidebarPath: require.resolve('./sidebars.js'),
+          // In order to display a link to edit your documents, please change this value.
+          // Refer to Docusaurus v2 documentation for more info.
+          // editUrl: 'http://easydita.com',
         },
-        "theme": {
-          "customCss": require.resolve('./src/css/custom.css')
-        }
-      }
-    ]
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      },
+    ],
   ],
-  "plugins": [  
-	[require.resolve('@cmfcmf/docusaurus-search-local'), {
-    indexDocs: true,
-         docsRouteBasePath: '/',
-         indexDocSidebarParentCategories: 3,
-         indexPages: false,
-         language: ["en", "de", "es", "fr"],
-     }]
+   "plugins": [ 
+   //  [require.resolve('@cmfcmf/docusaurus-search-local'), {
+   // indexDocs: true,
+   //  docsRouteBasePath: '/',
+   //  indexDocSidebarParentCategories: 3,
+   //  indexPages: false,
+  // language: "en",
+ //   }]
 ],
   "i18n": {
     "defaultLocale": "en",
     "locales": [
       "en",
-      "de-de",
-      "es-es",
-      "fr-fr"
+    //  "de-de",
+     // "es-es",
+    //  "fr-fr",
+     // "it-it",
+     // "ja-jp",
+     // "tr-tr",
+    //  "zh-tw",
     ],
     "localeConfigs": {}
   }
