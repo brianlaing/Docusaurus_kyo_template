@@ -1,4 +1,4 @@
 # KDDA TC Docusaurus 
 
-Repo for KDDA **Kyocera-**branded Docusaurus template
+The Kyocera branded Docusaurus template based on Jorsek template
 
