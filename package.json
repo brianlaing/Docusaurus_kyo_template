@@ -11,12 +11,10 @@
     "serve": "docusaurus serve"
   },
   "dependencies": {
-   // "@cmfcmf/docusaurus-search-local": "latest",
     "@docusaurus/core": "latest",
     "@docusaurus/preset-classic": "latest",
     "@mdx-js/react": "^1.6.21",
     "clsx": "latest",
-    "docusaurus": "^1.14.7",
     "react": "latest",
     "react-dom": "latest"
   },
