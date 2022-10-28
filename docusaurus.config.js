@@ -26,7 +26,7 @@ module.exports = {
       copyright: `© ${new Date().getFullYear()} KYOCERA Document Solutions, Inc.`,
     },
   },
-  presets: [
+    presets: [
     [
       '@docusaurus/preset-classic',
       {
@@ -54,7 +54,3 @@ module.exports = {
     // }]
   ],
 };
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
