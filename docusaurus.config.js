@@ -43,14 +43,21 @@ module.exports = {
       },
     ],
   ],
-  plugins: [
-    // To enable the local search functionality, uncomment the following code:
-    // [require.resolve('@cmfcmf/docusaurus-search-local'), {
-    // indexDocs: true,
-    //     docsRouteBasePath: '/',
-    //     indexDocSidebarParentCategories: 3,
-    //     indexPages: false,
-    //     language: "en"
-    // }]
+
+  "plugins": [
+	[
+		require.resolve('@cmfcmf/docusaurus-search-local'),
+      {
+        // ... Your options.
+		indexDocs: true,
+		docsRouteBasePath: '/docs',
+		language: "en",
+
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        //language: ["en", "de", "fr"],
+        // ```
+        // When applying `zh` in language, please install `nodejieba` in your project.
+     },
+   ],
   ],
-};
