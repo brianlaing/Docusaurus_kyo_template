@@ -43,17 +43,26 @@ module.exports = {
       },
     ],
   ],
-  "plugins": [
-  [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      {
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
-        hashed: true,
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
-        language: ["en"],
-        // ```
-      },
+   //  [require.resolve('@cmfcmf/docusaurus-search-local'), {
+   // indexDocs: true,
+   //  docsRouteBasePath: '/',
+   //  indexDocSidebarParentCategories: 3,
+   //  indexPages: false,
+  // language: "en",
+ //   }]
+],
+  "i18n": {
+    "defaultLocale": "en",
+    "locales": [
+      "en",
+    //  "de-de",
+     // "es-es",
+    //  "fr-fr",
+     // "it-it",
+     // "ja-jp",
+     // "tr-tr",
+    //  "zh-tw",
     ],
-  ],
+    "localeConfigs": {}
+  }
+};
