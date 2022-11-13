@@ -43,21 +43,17 @@ module.exports = {
       },
     ],
   ],
-
   "plugins": [
-	[
-		require.resolve('@cmfcmf/docusaurus-search-local'),
+  [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         // ... Your options.
-		indexDocs: true,
-		docsRouteBasePath: '/docs',
-		language: "en",
-
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
         // For Docs using Chinese, The `language` is recommended to set to:
         // ```
-        //language: ["en", "de", "fr"],
+        language: ["en"],
         // ```
-        // When applying `zh` in language, please install `nodejieba` in your project.
-     },
-   ],
+      },
+    ],
   ],
