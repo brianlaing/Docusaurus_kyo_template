@@ -10,14 +10,16 @@
 @import "modules/notes.css";
 
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #00b1db;
+  --ifm-color-primary-dark: #009fc5;
+  --ifm-color-primary-darker: #0096ba;
+  --ifm-color-primary-darkest: #007c99;
+  --ifm-color-primary-light: #00c3f1;
+  --ifm-color-primary-lighter: #00ccfc;
+  --ifm-color-primary-lightest: #1ed4ff;
   --ifm-code-font-size: 95%;
+  --aa-primary-color-rgb: 10, 155, 205 !important;
+  --aa-muted-color-rgb: 141, 217, 238 !important;
 }
 
 
