@@ -43,7 +43,7 @@ module.exports = {
       },
     ],
   ],
-  "plugins": [
+  plugins: [
    //  [require.resolve('@cmfcmf/docusaurus-search-local'), {
    // indexDocs: true,
    //  docsRouteBasePath: '/',
@@ -52,7 +52,7 @@ module.exports = {
   // language: "en",
  //   }]
 ],
-  "i18n": {
+  i18n: {
     "defaultLocale": "en",
     "locales": [
       "en",
